@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--带状态的framlayout属性-->
+    <declare-styleable name="MyStatusFramlayout">
+        <!--错误页面-->
+        <attr name="error_layout" format="reference" />
+        <!--加载中页面-->
+        <attr name="loading_layout" format="reference" />
+        <!--内容页面-->
+        <attr name="content_layout" format="reference" />
+        <!--空布局页面-->
+        <attr name="empty_layout" format="reference" />
+        <!--加载状态-->
+        <attr name="load_status" format="enum">
+            <enum name="loading" value="0" />
+            <enum name="empty" value="1" />
+            <enum name="error" value="2" />
+        </attr>
+
+    </declare-styleable>
+</resources>
